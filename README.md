@@ -17,9 +17,9 @@
 - nltk==3.7
 
 ## Quick Start
-### An example for editing Llama3 (8B) on counterfact dataset using MEMIT$_{\text{BLUE}}$
+### An example for editing Llama3 (8B) on CounterFact dataset using MEMIT$_{\text{BLUE}}$
 #### 1. Edit Llama3 (8B) model 
- 
+
     python3 -m experiments.evaluate     --alg_name=MEMIT     --model_name=meta-llama/Meta-Llama-3-8B-Instruct     --hparams_fname=Llama3-8B-blue.json --ds_name=mcf --dataset_size_limit=2000    --num_edits=100 --downstream_eval_steps=5
 
 This command runs an evaluation script for the MEMIT$_{\text{BLUE}}$ algorithm using the Llama3-8b-instruct. Below are the explanations for each argument:
@@ -36,4 +36,4 @@ This command runs an evaluation script for the MEMIT$_{\text{BLUE}}$ algorithm u
     python summarize.py --dir_name=MEMIT --runs=run_<run1>,run_<run2>
 
 ## Acknowledgment
-Our code is based on  [``MEMIT``](https://github.com/kmeng01/memit.git).
+Our code is based on  [``AlphaEdit``](https://github.com/jianghoucheng/AlphaEdit).
