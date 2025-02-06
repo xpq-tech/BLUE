@@ -1,0 +1,11 @@
+transformers
+einops
+numpy
+torch
+seaborn
+hydra-core
+higher
+scipy==1.11.4
+scikit-learn==1.0.2
+nltk
+datasets==2.12.0

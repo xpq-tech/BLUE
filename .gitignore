@@ -1,0 +1,15 @@
+__pycache__
+.vscode/
+datasets/*
+data
+*.pt
+rewrite_knowledge
+results
+logs
+share
+*.log
+hs
+figs
+*.pkl
+rewriting-knowledge
+pkls
